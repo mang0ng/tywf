@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import styles from './purchase-card.module.scss';
 import { Button } from '../button/button';
-import { TextOverlay } from '../text-overlay/text-overlay';\
+import { TextOverlay } from '../text-overlay/text-overlay';
 
 export interface PurchaseCardProps {
     className?: string;
