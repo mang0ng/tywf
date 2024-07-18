@@ -18,18 +18,18 @@ export const Classes = ({ className }: ClassesProps) => {
         <div className={classNames(styles.root, className)}>
             <h1>Heading 1</h1>
             <div className={styles.classes_types}>
-                <Card />
-                <Card />
-                <Card />
+                <Card h3="Heading 1" description="Description 1" imgSrc="path/to/image1.jpg" />
+                <Card h3="Heading 2" description="Description 2" imgSrc="path/to/image2.jpg" />
+                <Card h3="Heading 3" description="Description 3" imgSrc="path/to/image3.jpg" />
             </div>
             <div className={styles.classes_types}>
-                <Card />
-                <Card />
-                <Card />
+                <Card h3="Heading 4" description="Description 4" imgSrc="path/to/image4.jpg" />
+                <Card h3="Heading 5" description="Description 5" imgSrc="path/to/image5.jpg" />
+                <Card h3="Heading 6" description="Description 6" imgSrc="path/to/image6.jpg" />
             </div>
             <div className={styles.summer_program}>
-                <Card />
-                <Card />
+                <Card h3="Heading 7" description="Description 7" imgSrc="path/to/image7.jpg" />
+                <Card h3="Heading 8" description="Description 8" imgSrc="path/to/image8.jpg" />
             </div>
             <Footer />
         </div>

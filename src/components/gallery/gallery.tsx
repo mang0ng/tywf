@@ -21,13 +21,11 @@ export const Gallery = ({ className }: GalleryProps) => {
                     src="https://wixplosives.github.io/codux-assets-storage/add-panel/video-placeholder.mp4"
                 />
             </div>
-            <Carousel images={[
-                ""
-            ]} />
+            <Carousel images={[""]} />
             <div className={styles.shows}>
-                <Card />
-                <Card />
-                <Card />
+                <Card h3="Show 1" description="Description of Show 1" imgSrc="path/to/image1.jpg" />
+                <Card h3="Show 2" description="Description of Show 2" imgSrc="path/to/image2.jpg" />
+                <Card h3="Show 3" description="Description of Show 3" imgSrc="path/to/image3.jpg" />
             </div>
         </div>
     );

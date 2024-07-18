@@ -8,7 +8,7 @@ export default createBoard({
         <Card
             className={Card_module.heading3}
             h3="Heading 3"
-            describtion="Describtions"
+            description="Descriptions"
             imgSrc="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
         />
     ),

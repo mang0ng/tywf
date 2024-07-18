@@ -9,7 +9,11 @@ export default createBoard({
         <div>
             <h1>Heading 1</h1>
             <div className={Contact_board_module.location_contact}>
-                <Card />
+                <Card 
+                    h3="Card Title 1"
+                    description="Description for card 1"
+                    imgSrc="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
+                />
                 <img
                     src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
                     alt=""
@@ -17,7 +21,11 @@ export default createBoard({
                 />
             </div>
             <div className={Contact_board_module.location_contact}>
-                <Card />
+                <Card 
+                    h3="Card Title 2"
+                    description="Description for card 2"
+                    imgSrc="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
+                />
                 <img
                     src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
                     alt=""
@@ -25,7 +33,11 @@ export default createBoard({
                 />
             </div>
             <div className={Contact_board_module.location_contact}>
-                <Card />
+                <Card 
+                    h3="Card Title 3"
+                    description="Description for card 3"
+                    imgSrc="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
+                />
                 <img
                     src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
                     alt=""

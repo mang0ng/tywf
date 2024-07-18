@@ -4,7 +4,7 @@ import styles from './card.module.scss';
 export interface CardProps {
     className?: string;
     h3: string;
-    describtion: string;
+    description: string;
     imgSrc: string;
 }
 
@@ -13,7 +13,7 @@ export interface CardProps {
  * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
  */
 
-export const Card = ({ className, h3, describtion, imgSrc }: CardProps) => {
+export const Card = ({ className, h3, description, imgSrc }: CardProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <div>
@@ -25,7 +25,7 @@ export const Card = ({ className, h3, describtion, imgSrc }: CardProps) => {
             </div>
             <div>
                 <h3 className={styles.heading3}>{h3}</h3>
-                <p className={styles.Paragraph}>{describtion}</p>
+                <p className={styles.Paragraph}>{description}</p>
             </div>
         </div>
     );

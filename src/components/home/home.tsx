@@ -44,13 +44,19 @@ export const Home = ({ className }: HomeProps) => {
             <div className={styles.locations}>
                 <h1 className={styles.title}>Our different Locations</h1>
                 <div className={styles['img-combo']}>
-                    <Card h3="Irvine" h3="Irvine " imgSrc={Logo1Copy1Jpg} />
+                    <Card
+                        h3="Irvine"
+                        description="Description for Irvine"
+                        imgSrc={Logo1Copy1Jpg}
+                    />
                     <Card
                         h3="Fountain Valley"
+                        description="Description for Fountain Valley"
                         imgSrc="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
                     />
                     <Card
                         h3="Arcadia"
+                        description="Description for Arcadia"
                         imgSrc="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
                     />
                 </div>

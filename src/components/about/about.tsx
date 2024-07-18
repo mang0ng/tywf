@@ -18,22 +18,43 @@ export const About = ({ className }: AboutProps) => {
         <div className={classNames(styles.root, className)}>
             <ImageNtext
                 isFlipped={true}
-                buttonText=""
+                buttonText="Learn More"
                 description="Studio 详细介绍"
                 imgSrc="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
             />
             <ImageNtext
                 isFlipped={false}
+                buttonText="Learn More"
                 imgSrc="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
                 description="Lucy 详细介绍"
             />
             <div className={styles.employeeInfo}>
-                <Card className={Card_module.heading3} />
-                <Card className={Card_module.heading3} />
+                <Card 
+                    className={Card_module.heading3} 
+                    h3="Employee Name"
+                    description="Employee Description"
+                    imgSrc="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
+                />
+                <Card 
+                    className={Card_module.heading3} 
+                    h3="Employee Name"
+                    description="Employee Description"
+                    imgSrc="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
+                />
             </div>
             <div className={styles.employeeInfo}>
-                <Card className={Card_module.heading3} />
-                <Card className={Card_module.heading3} />
+                <Card 
+                    className={Card_module.heading3} 
+                    h3="Employee Name"
+                    description="Employee Description"
+                    imgSrc="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
+                />
+                <Card 
+                    className={Card_module.heading3} 
+                    h3="Employee Name"
+                    description="Employee Description"
+                    imgSrc="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
+                />
             </div>
         </div>
     );
