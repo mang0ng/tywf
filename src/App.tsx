@@ -13,11 +13,11 @@ function App() {
         <div className={styles.App}>
             <Header />
             <Routes>
-                <Route path="/" element={<Home />}/>
-                <Route path="/about" element={<About />}/>
-                <Route path="/classes" element={<Classes />}/>
-                <Route path="/gallery" element={<Gallery />}/>
-                <Route path="/contact" element={<Contact />}/>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/classes" element={<Classes />} />
+                <Route path="/gallery" element={<Gallery />} />
+                <Route path="/contact" element={<Contact />} />
             </Routes>
             <Footer />
         </div>
