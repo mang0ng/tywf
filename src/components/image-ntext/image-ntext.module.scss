@@ -1,0 +1,37 @@
+.root {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.combo {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.learn-more {
+  height: 50%;
+}
+.discribtion {
+  color: var(--primary-color);
+  height: 90%;
+  padding-left: 10%;
+}
+.learn-more {
+  display: flex;
+  justify-content: start;
+  height: 30%;
+  align-items: end;
+}
+.rowReverse {
+  flex-direction: row-reverse;
+}
+.justifyEnd {
+  justify-content: end;
+  padding-left: 10%;
+}
+.width {
+  width: 410px;
+  margin-right: 5%;
+  margin-left: 5%;
+  height: 273px;
+}

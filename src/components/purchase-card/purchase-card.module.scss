@@ -1,0 +1,14 @@
+.root {
+  max-width: 33%;
+  width: max-content;
+  margin: 40px;
+}
+.package {
+  width: 100px;
+}
+.purchase-card {
+  max-width: 100% !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

@@ -1,0 +1,37 @@
+.root {
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  align-items: center;
+}
+.WX_QR_code {
+  max-width: 200px;
+  max-height: 200px;
+  height: 200px;
+  width: 200px;
+  margin: 40px;
+}
+.contact_info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.social_media {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: end;
+  align-items: end;
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.icons {
+  display: flex;
+  align-content: end;
+  height: 30%;
+}

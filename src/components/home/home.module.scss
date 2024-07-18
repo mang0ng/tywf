@@ -1,0 +1,89 @@
+$image-height: 300px;
+
+.root {
+  position: relative;
+  display: flex;
+
+  .StudioIntro {
+    color: white;
+    img {
+      width: 100%;
+      max-height: $image-height;
+      object-fit: cover; /* Ensures the image covers the entire height */
+      overflow: hidden;
+    }
+    padding-bottom: 20px;
+  }
+  .text-overlay {
+    position: absolute;
+    top: calc(#{$image-height} / 2);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional for background */
+    padding: 10px;
+  }
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  height: 100%;
+}
+
+.text-right {
+  padding-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 100px;
+  margin-left: 100px;
+  height: 150px;
+  display: flex;
+  width: 70%;
+  padding-left: 20px;
+}
+
+.learn-more {
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  text-align: center;
+  width: 123px;
+  height: auto;
+}
+
+.right-combo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.class-intro {
+}
+
+.Lucy-intro {
+}
+
+.left-image {
+}
+
+.locations {
+  display: flex;
+  width: 100%;
+
+  padding-top: 10%;
+  padding-bottom: 10%;
+  flex-direction: column;
+}
+.oo {
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img-combo {
+  display: flex;
+  flex-direction: row;
+}

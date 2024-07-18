@@ -1,0 +1,17 @@
+.root {
+  position: relative;
+  text-align: center;
+}
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional for background */
+  padding: 10px;
+}
+.overlay-image {
+  max-width: 100%;
+  max-height: 600px;
+}

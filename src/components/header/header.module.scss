@@ -1,0 +1,36 @@
+.root {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    margin: 15px;
+    color: black;
+  }
+  a:hover{
+    font-weight: bold;
+  }
+}
+.logo {
+  height: 50px;
+  align-self: center;
+  width: 50px;
+  margin: 20px;
+}
+.right-header {
+  display: flex;
+}
+.middle-hearder {
+}
+.left-header {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+}
+.right {
+  display: flex;
+}
