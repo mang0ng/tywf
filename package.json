@@ -15,7 +15,7 @@
     "classnames": "^2.5.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.24.1",
+    "react-router-dom": "^6.25.1",
     "semantic-ui-css": "^2.5.0",
     "semantic-ui-react": "^2.1.5"
   },
@@ -24,11 +24,11 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
-    "@wixc3/react-board": "^2.5.0",
+    "@wixc3/react-board": "^3.0.0",
     "gh-pages": "^6.1.1",
-    "sass": "^1.77.6",
+    "sass": "^1.77.8",
     "typescript": "^5.5.3",
-    "vite": "^5.3.3",
+    "vite": "^5.3.4",
     "vite-plugin-svgr": "^4.2.0"
   }
 }
