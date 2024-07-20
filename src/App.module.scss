@@ -9,5 +9,5 @@
 }
 div:has(+footer) {
   // grow the div before the footer (page)
-  flex-grow: 1;
+  flex: 1;
 }
