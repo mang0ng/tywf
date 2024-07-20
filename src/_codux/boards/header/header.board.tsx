@@ -10,14 +10,5 @@ export default createBoard({
         </MemoryRouter>
     ),
     isSnippet: true,
-    environmentProps: {
-        canvasWidth: 1024,
-        canvasHeight: 640,
-        canvasMargin: {
-            top: 0,
-            left: 0,
-            right: 0,
-        },
-    },
     tags: ['Sections'],
 });

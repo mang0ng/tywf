@@ -1,11 +1,13 @@
 .App {
   margin: 0 auto;
-  padding: 2.3em 3em 2em;
   text-align: center;
   display: flex;
   flex-direction: column;
-  border: 2px dashed #888888;
-  border-radius: 30px;
-  height: 100%;
+  height: 100vh;
+  width: 100vw;
   align-content: space-between;
+}
+div:has(+footer) {
+  // grow the div before the footer (page)
+  flex-grow: 1;
 }

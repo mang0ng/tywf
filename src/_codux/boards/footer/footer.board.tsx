@@ -5,10 +5,5 @@ export default createBoard({
     name: 'Footer',
     Board: () => <Footer />,
     isSnippet: true,
-    environmentProps: {
-        canvasWidth: 1024,
-        canvasHeight: 640,
-        canvasMargin: { left: 0, right: 0, bottom: 0 },
-    },
     tags: ['Sections'],
 });

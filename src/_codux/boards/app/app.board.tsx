@@ -9,9 +9,4 @@ export default createBoard({
             <App />
         </MemoryRouter>
     ),
-    environmentProps: {
-        windowWidth: 1024,
-        windowHeight: 640,
-        canvasWidth: 1024,
-    },
 });

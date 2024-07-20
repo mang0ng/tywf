@@ -17,13 +17,14 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  width: 40%;
 }
 .social_media {
   display: flex;
   flex-direction: row;
-  width: 100%;
   justify-content: end;
   align-items: end;
+  width: 60%;
 }
 .contact {
   display: flex;
@@ -32,6 +33,22 @@
 }
 .icons {
   display: flex;
-  align-content: end;
-  height: 30%;
+  margin: 20px;
+}
+.phone_number {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.phone_number {
+  align-items: center;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 10;
+  align-self: center;
+}
+.email {
+  display: flex;
 }

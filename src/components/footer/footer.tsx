@@ -1,11 +1,13 @@
 import classNames from 'classnames';
 import styles from './footer.module.scss';
 import { useState } from 'react';
-import { Modal, Sidebar, Button, Icon } from 'semantic-ui-react';
+import { Modal, Sidebar } from 'semantic-ui-react';
 import { Icons } from '../icons/icons';
 import YoutubeLogo2431Svg from '../../assets/youtube-logo-2431.svg';
 import CameraInstagramInstagramLogoIconSvg from '../../assets/5296765_camera_instagram_instagram logo_icon.svg';
 import IconWechatLogoSvg from '../../assets/icon-wechat-logo.svg';
+import TelephoneReceiverMaterialSvgrepoComSvg from '../../assets/telephone-receiver-material-svgrepo-com.svg';
+import EmailSvgrepoComSvg from '../../assets/email-svgrepo-com.svg';
 
 export interface FooterProps {
     className?: string;
@@ -21,7 +23,7 @@ export const Footer = ({ className }: FooterProps) => {
     const [visible, setVisible] = useState(true);
     const [open, setOpen] = useState(false);
     return (
-        <div className={classNames(styles.root, className)}>
+        <footer className={classNames(styles.root, className)}>
             <div className={styles.contact}>
                 <div className={styles.contact_info}>
                     <img
@@ -29,16 +31,20 @@ export const Footer = ({ className }: FooterProps) => {
                         alt=""
                         className={styles.WX_QR_code}
                     />
-                    <div>
-                        <Button icon>
-                            <Icon name="map marker alternate" size="large" />
-                        </Button>
-                        <Button icon>
-                            <Icon name="phone volume" size="large" />
-                        </Button>
-                    </div>
+                    <div></div>
                 </div>
                 <div className={styles.social_media}>
+                    <div className={styles.info}>
+                        <h3>更多问题扫码咨询小客服！</h3>
+                        <div className={styles.phone_number}>
+                            <Icons imgSrc={TelephoneReceiverMaterialSvgrepoComSvg} />
+                            <p className={styles.phone_number}>858-319-5454</p>
+                        </div>
+                        <div className={styles.email}>
+                            <Icons imgSrc={EmailSvgrepoComSvg} />
+                            <p className={styles.phone_number}>mangogong5@gmail.com</p>
+                        </div>
+                    </div>
                     <div className={styles.icons}>
                         <Icons imgSrc={IconWechatLogoSvg} />
                         <Icons imgSrc={YoutubeLogo2431Svg} />
@@ -46,6 +52,6 @@ export const Footer = ({ className }: FooterProps) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </footer>
     );
 };

@@ -5,9 +5,5 @@ export default createBoard({
     name: 'ScheduleList',
     Board: () => <ScheduleList title="星期" />,
     isSnippet: true,
-    environmentProps: {
-        canvasWidth: 1024,
-        canvasHeight: 640,
-    },
     tags: ['Parts'],
 });

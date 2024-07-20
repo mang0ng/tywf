@@ -5,9 +5,5 @@ export default createBoard({
     name: 'ClassSchedule',
     Board: () => <ClassSchedule />,
     isSnippet: true,
-    environmentProps: {
-        canvasWidth: 1024,
-        canvasHeight: 640,
-    },
     tags: ['Pages'],
 });

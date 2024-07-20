@@ -7,9 +7,5 @@ export default createBoard({
         <PurchaseCard imgSrc="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg" />
     ),
     isSnippet: true,
-    environmentProps: {
-        canvasWidth: 1024,
-        canvasHeight: 640,
-    },
     tags: ['Parts'],
 });
