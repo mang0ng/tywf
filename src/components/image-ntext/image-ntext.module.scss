@@ -2,6 +2,9 @@
   display: flex;
   padding-top: 50px;
   padding-bottom: 50px;
+  font-size: 30px;
+  line-height: 45px;
+  margin: 70px;
 }
 .combo {
   display: flex;
@@ -14,24 +17,45 @@
 .discribtion {
   color: var(--primary-color);
   height: 90%;
-  padding-left: 10%;
+  display: flex;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: start;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .learn-more {
   display: flex;
   justify-content: start;
   height: 30%;
   align-items: end;
+  margin-left: 50px;
 }
 .rowReverse {
   flex-direction: row-reverse;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 70px;
+  line-height: 45px;
 }
 .justifyEnd {
   justify-content: end;
   padding-left: 10%;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .width {
-  width: 410px;
   margin-right: 5%;
   margin-left: 5%;
-  height: 273px;
+  width: 50%;
+  height: 50%;
+}
+.section_title {
+  font-weight: bold;
+  line-height: 40px;
+  font-size: 35px;
+  min-height: 40px;
+  margin-bottom: 20px;
 }

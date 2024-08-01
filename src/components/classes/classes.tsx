@@ -17,11 +17,11 @@ export interface ClassesProps {
 export const Classes = ({ className }: ClassesProps) => {
     return (
         <div className={classNames(styles.root, className)}>
-            <h1>我们提供的课程</h1>
+            <h1 className={styles.class_provideed}>我们提供的课程</h1>
             <div className={styles.classes_types}>
-                <Card h3="Heading 1" description="Description 1" imgSrc={Wechatimg23Jpg} />
-                <Card h3="Heading 2" description="Description 2" imgSrc={Wechatimg23Jpg} />
-                <Card h3="Heading 3" description="Description 3" imgSrc={Wechatimg23Jpg} />
+                <Card h3="中国舞启蒙班" description="启蒙班描述" imgSrc={Wechatimg23Jpg} />
+                <Card h3="中国舞少儿班" description="少儿班描述" imgSrc={Wechatimg23Jpg} />
+                <Card h3="中国舞成人班" description="成人班描述" imgSrc={Wechatimg23Jpg} />
             </div>
             <div className={styles.classes_types}>
                 <Card h3="Heading 4" description="Description 4" imgSrc={Wechatimg23Jpg} />
@@ -29,8 +29,8 @@ export const Classes = ({ className }: ClassesProps) => {
                 <Card h3="Heading 6" description="Description 6" imgSrc={Wechatimg23Jpg} />
             </div>
             <div className={styles.summer_program}>
-                <Card h3="Heading 7" description="Description 7" imgSrc={Wechatimg24Jpg} />
-                <Card h3="Heading 8" description="Description 8" imgSrc={Wechatimg24Jpg} />
+                <Card h3="暑期夏令营" description="Description 7" imgSrc={Wechatimg24Jpg} />
+                <Card h3="购买课程包" description="Description 8" imgSrc={Wechatimg24Jpg} />
             </div>
         </div>
     );

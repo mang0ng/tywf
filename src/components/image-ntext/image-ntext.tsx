@@ -7,7 +7,8 @@ export interface ImageNtextProps {
     isFlipped?: boolean;
     imgSrc: string;
     description: string;
-    buttonText: string;
+    buttonText?: string;
+    sectionTitle: string;
 }
 
 /**
@@ -19,17 +20,19 @@ export const ImageNtext = ({
     isFlipped = true,
     description,
     imgSrc,
-    buttonText,
+    buttonText = '',
+    sectionTitle,
 }: ImageNtextProps) => {
     return (
         <div className={classNames(styles.root, { [styles.rowReverse]: isFlipped }, className)}>
             <img src={imgSrc} alt="" className={styles.width} />
             <div className={classNames(styles.combo)} about="edddddd">
+                <h1 className={styles.section_title}>{sectionTitle}</h1>
                 <div className={styles.discribtion}>{description}</div>
                 <div
                     className={classNames(styles['learn-more'], { [styles.justifyEnd]: isFlipped })}
                 >
-                    <Button text={buttonText} />
+                    {buttonText && <Button text={buttonText} />}
                 </div>
             </div>
         </div>

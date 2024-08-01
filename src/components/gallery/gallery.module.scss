@@ -12,4 +12,8 @@
 }
 .shows {
   display: flex;
+  justify-content: center;
+}
+.shows img {
+  object-fit: contain;
 }

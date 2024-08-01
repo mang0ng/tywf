@@ -12,8 +12,10 @@ export interface SwitchButtonProps {
 export const SwitchButton = ({ className }: SwitchButtonProps) => {
     return (
         <div className={classNames(styles.root, className)}>
-            <button className={classNames(styles.root, styles['top-button'])}>中 </button>
-            <button>Eng</button>
+            <div
+                id="google_translate_element"
+                className={classNames(styles.google_translate_element, styles['top-button'])}
+            >Translate</div>
         </div>
     );
 };

@@ -5,12 +5,14 @@ export default createBoard({
     name: 'ImageNtext 1',
     Board: () => (
         <ImageNtext
-            buttonText="Button"
             isFlipped={true}
             imgSrc="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
             description="Studio Description"
+            sectionTitle="Section Title"
+            buttonText="Button"
         />
     ),
     isSnippet: true,
     tags: ['Sections'],
+    environmentProps: { windowWidth: 1920 },
 });

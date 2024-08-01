@@ -3,6 +3,18 @@
   padding-top: 10px;
   padding-right: 20px;
   padding-left: 20px;
-  background-color: rgba(169, 178, 183, 0.35);
+  background-color: var(--secondary-color);
   text-align: center;
+  border-radius: 20px;
+  background-image: none;
+  background-position: 0%;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+  box-shadow: 2.83px 2.83px 2px var(--secondary-color);
+  color: var(--teriary-color);
+  font-weight: bolder;
+  font-size: 25px;
 }

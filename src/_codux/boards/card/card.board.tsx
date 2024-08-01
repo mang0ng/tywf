@@ -15,7 +15,9 @@ export default createBoard({
     isSnippet: true,
     tags: ['Parts'],
     environmentProps: {
-        canvasWidth: 1024,
-        canvasHeight: 640,
+        windowHeight: 500,
+        windowWidth: 1193,
+        canvasWidth: 918,
+        canvasHeight: 500,
     },
 });

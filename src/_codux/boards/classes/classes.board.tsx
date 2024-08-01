@@ -7,7 +7,7 @@ export default createBoard({
     isSnippet: true,
     tags: ['Pages'],
     environmentProps: {
-        windowWidth: 1238,
-        canvasWidth: 1309,
+        windowWidth: 1640,
+        canvasWidth: 1600,
     },
 });

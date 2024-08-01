@@ -1,22 +1,25 @@
 .root {
   width: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 
   a {
-    margin: 15px;
-    color: black;
+    font-weight: 500;
+    margin: 20px;
+    color: #000000;
   }
-  a:hover{
+  a:hover {
     font-weight: bold;
+    color: var(--secondary-color);
   }
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .logo {
-  height: 50px;
   align-self: center;
-  width: 50px;
-  margin: 20px;
+  width: 75px;
+  height: 75px;
+  margin: 0px;
 }
 .right-header {
   display: flex;
@@ -30,7 +33,16 @@
 }
 .left {
   display: flex;
+  margin-left: 5%;
 }
 .right {
   display: flex;
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 25px;
+  margin-right: 5%;
+  flex-wrap: wrap;
+}
+.switch_button {
+  justify-content: center;
 }

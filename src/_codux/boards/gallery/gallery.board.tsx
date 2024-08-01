@@ -6,4 +6,8 @@ export default createBoard({
     Board: () => <Gallery />,
     isSnippet: true,
     tags: ['Pages'],
+    environmentProps: {
+        canvasWidth: 1526,
+        windowWidth: 1488,
+    },
 });

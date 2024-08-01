@@ -1,7 +1,8 @@
 import classNames from 'classnames';
 import styles from './gallery.module.scss';
-import { Card } from '../card/card';
 import { Carousel } from '../carousel/carousel';
+import { Card } from '../card/card';
+import Webp from '../../assets/涅槃记.webp';
 
 export interface GalleryProps {
     className?: string;
@@ -16,16 +17,17 @@ export const Gallery = ({ className }: GalleryProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <div className={styles.performance_video}>
-                <video
-                    controls={true}
-                    src="https://wixplosives.github.io/codux-assets-storage/add-panel/video-placeholder.mp4"
-                />
+                <video controls={true} src="https://youtu.be/KIvozjPzgdY?si=auRoGy_k-FfHYvMY" />
             </div>
-            <Carousel images={[""]} />
+            <Carousel images={['']} />
             <div className={styles.shows}>
-                <Card h3="Show 1" description="Description of Show 1" imgSrc="path/to/image1.jpg" />
-                <Card h3="Show 2" description="Description of Show 2" imgSrc="path/to/image2.jpg" />
-                <Card h3="Show 3" description="Description of Show 3" imgSrc="path/to/image3.jpg" />
+                <Card
+                    description="洛杉矶首部华人实验舞剧。 涅槃重生的意思是指凤凰经历烈火的煎熬和痛苦的考验，获得重生，并在重生中达到升华。这个词也叫做“凤凰涅槃”，寓意着不畏痛苦、义无反顾、不断追求、提升自我的执着精神"
+                    h3="涅槃记"
+                    imgSrc={Webp}
+                />
+                <Card description="洛杉矶首部华人实验舞剧" h3="涅槃记" imgSrc={Webp} />
+                <Card description="洛杉矶首部华人实验舞剧" h3="涅槃记" imgSrc={Webp} />
             </div>
         </div>
     );

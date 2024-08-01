@@ -1,8 +1,6 @@
 .root {
   padding-right: 20px;
   padding-left: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
   display: flex;
   flex-direction: column;
 
@@ -13,10 +11,24 @@
     margin-left: 5px;
     margin-top: 0px;
     margin-bottom: 0px;
-    border-radius: 0px;
+    border-radius: 30px;
     align-items: center;
     flex-direction: column;
+    background-color: rgb(162, 35, 29);
+    color: var(--tertiary-color);
+    font-size: 15px;
+    font-weight: bolder;
+    background-image: none;
+    background-position: 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
   }
+  font-weight: bolder;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 .top-button {
   border: 0px solid black;

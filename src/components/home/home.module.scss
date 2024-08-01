@@ -1,27 +1,23 @@
-$image-height: 300px;
-
 .root {
   position: relative;
   display: flex;
 
   .StudioIntro {
     color: white;
-    img {
-      width: 100%;
-      max-height: $image-height;
-      object-fit: cover; /* Ensures the image covers the entire height */
-      overflow: hidden;
-    }
-    padding-bottom: 20px;
-  }
-  .text-overlay {
-    position: absolute;
-    top: calc(#{$image-height} / 2);
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5); /* Optional for background */
-    padding: 10px;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/wechatimg23.jpg');
+    background-position: 0 65%;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-color: transparent;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: end;
+    padding-bottom: 50vh;
   }
   flex-direction: column;
   flex-grow: 1;
@@ -81,9 +77,29 @@ $image-height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-weight: 600;
+  font-size: 60px;
+  color: var(--primary-color);
 }
 .img-combo {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: end;
+}
+.img-combo > div {
+  width: 25%;
+}
+.Chinese_title {
+  color: #ffffff;
+  font-size: 70px;
+}
+.English_title {
+  font-size: 60px;
+  color: #ffffff;
+}
+.titles {
+}
+.introText {
+  margin-top: 10%;
 }
