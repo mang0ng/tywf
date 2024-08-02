@@ -2,6 +2,8 @@
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 
   a {
     font-weight: 500;
@@ -12,8 +14,6 @@
     font-weight: bold;
     color: var(--secondary-color);
   }
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
 .logo {
   align-self: center;

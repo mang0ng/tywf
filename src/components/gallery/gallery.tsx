@@ -17,7 +17,16 @@ export const Gallery = ({ className }: GalleryProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <div className={styles.performance_video}>
-                <video controls={true} src="https://youtu.be/KIvozjPzgdY?si=auRoGy_k-FfHYvMY" />
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/worFdfgWvXo?si=4NVXF5ixC5tmIH8B"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                ></iframe>
             </div>
             <Carousel images={['']} />
             <div className={styles.shows}>

@@ -1,6 +1,9 @@
 .root {
   position: relative;
   display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
 
   .StudioIntro {
     color: white;
@@ -19,9 +22,6 @@
     align-content: end;
     padding-bottom: 50vh;
   }
-  flex-direction: column;
-  flex-grow: 1;
-  flex-shrink: 1;
 }
 
 .text-right {

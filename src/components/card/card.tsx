@@ -6,6 +6,7 @@ export interface CardProps {
     h3: string;
     description: string;
     imgSrc: string;
+    addDescription?: string;
 }
 
 /**
@@ -13,15 +14,16 @@ export interface CardProps {
  * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
  */
 
-export const Card = ({ className, h3, description, imgSrc }: CardProps) => {
+export const Card = ({ className, h3, description, imgSrc, addDescription }: CardProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <div>
                 <img alt="" src={imgSrc} className={styles.image} />
             </div>
-            <div>
+            <div className={styles.text}>
                 <h3 className={styles.heading3}>{h3}</h3>
                 <p className={styles.Paragraph}>{description}</p>
+                <p className={styles.Paragraph}>{addDescription}</p>
             </div>
         </div>
     );

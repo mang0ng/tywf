@@ -3,6 +3,9 @@
   padding-left: 20px;
   display: flex;
   flex-direction: column;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  padding-top: 10px;
 
   button {
     padding-top: 0.6em;
@@ -26,9 +29,6 @@
     background-origin: padding-box;
     background-clip: border-box;
   }
-  font-weight: bolder;
-  padding-bottom: 10px;
-  padding-top: 10px;
 }
 .top-button {
   border: 0px solid black;
